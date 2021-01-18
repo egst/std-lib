@@ -3,4 +3,4 @@
     @param {number} time - Time in ms.
     @returns {Promise<undefined>}
 */
-export const sleep = time => new Promise(resolve => void setTimeout(resolve, time) )
+export const sleep = time => new Promise(resolve => void setTimeout(resolve, time))
